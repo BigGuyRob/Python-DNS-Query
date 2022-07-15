@@ -78,7 +78,7 @@ def decodeResponse(response,pickup):
 # since the labels are different sizes
 # Basically this method: Picks up right after the label and grabs the entire name at once, for questions where the label length is always 2
 # This method has a while() in order to parse the entire Name at once by treating the next two bytes after the end of the name as the next label.
-# (Note: We believe this functionality is useful because it is used to parse any NAME field, even though not necessarily for this project)
+# (Note: We believe this functionality is useful because it is used to parse any resource record, even though not necessarily for this project)
 # The while is negated for answer since this is functionality is achieved using recursion 
 def parseLabel(response, pickup, byte, type):
     NAME = ''
