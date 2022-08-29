@@ -1,5 +1,7 @@
 Robert Reid, Kiernan King
 
+Client provided by Abraham Gale.
+
 Utilizing python sockets, send a DNS message containing a domain name and parse the response IP address(es) to a result file. 
 
 resources referenced include: 
